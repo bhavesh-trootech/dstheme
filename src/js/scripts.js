@@ -1,0 +1,1 @@
+console.log("scripts for ds themes init");

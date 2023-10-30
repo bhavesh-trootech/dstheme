@@ -1,0 +1,27 @@
+@charset 'UTF-8';
+
+// HTML 5 RESET ---------------------------------
+//@import 'html5doctor/reset';
+
+// bootstrap 4 flexbox ----------------------------------
+@import 'bootstrap_flexbox/grid';
+
+
+
+
+// custom css starts here -----------------------------------------
+@import 'variables';
+@import 'ds_general';
+@import 'ds_styles';
+
+@import 'font-awesome';
+@import 'owl-carousel';
+@import 'aos';
+@import 'simplelightbox';
+@import 'magnific-popup';
+@import 'animate';
+@import 'jarallax';
+@import 'dd_styles';
+@import 'dd_styles2';
+@import 'dd_styles3';
+@import 'dd_responsive';

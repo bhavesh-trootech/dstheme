@@ -1,0 +1,537 @@
+
+/****** fonts ******
+
+	font-family: kumlien-pro, serif;
+	font-weight: 400;
+	font-style: normal;
+
+	font-family: kumlien-pro, serif;
+	font-weight: 500;
+	font-style: normal;
+
+	font-family: obviously, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+
+	font-family: obviously, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+
+	font-family: obviously, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+
+	font-family: obviously-wide, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+
+******/
+
+.commercial_part_main {
+    background: #fff;
+    display: flex;
+    flex-flow: row wrap;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 60px 70px;
+    max-width: 65%;
+}
+.commercial_part .commercial-box{
+  margin-right: 2%;
+  width: 32%;
+}
+.commercial_part .commercial-box:last-child{
+  margin-right:0;
+  width: 66%;
+}
+.commercial_part .commercial-box .serdrag_txt{
+	 color: #000000;
+    font-family: obviously-wide, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0;
+}
+.commercial_part .commercial-box h5 {
+    margin: 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.commercial-box h5 img {
+    width: 40px;
+    margin-left: 19px;
+}
+.commercial-box h5 a{
+  color: #969696;
+  font-family: obviously-wide, sans-serif;
+}
+/*.commercial_part_main .commercial-box h5:before{
+	position: absolute;
+    content: "";
+    background-image: url(./images/right-arrow.svg);
+    height: 25px;
+    width: 25px;
+    background-repeat: no-repeat;
+    background-size: 18px;
+    right: 0;
+    left: auto;
+    top: 10px;
+    background-position: right;
+}*/
+
+.phases_left h4 {
+    text-transform: capitalize;
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: 0;
+	line-height: 30px;
+}
+.page-template-commercial-page .band_two_section .batw_txt .batw_tright{width: 100%;}
+
+.fiches-techniques {
+    background-color: #F4F4F4;
+    padding: 0 0 128px 0;
+}
+
+.fiches_head {
+    text-align: center;
+    padding: 95px 0 54px 0;
+}
+.fiches-techniques-main{
+	display: flex;
+  flex-flow: row wrap;
+}
+.fiches-techniques-box {
+  width: 32%;
+  margin: 0 2% 0 0;
+  padding-top: 20px;
+}
+.fiches-techniques-main .fiches-techniques-box:nth-child(1),
+.fiches-techniques-main .fiches-techniques-box:nth-child(2),
+.fiches-techniques-main .fiches-techniques-box:nth-child(3){
+  border-top: 1px solid #000;
+}
+.fiches-techniques-main .fiches-techniques-box:nth-child(3n){
+  margin-right:0;
+}
+.fiches-techniques-tab h4{
+	text-transform: capitalize;
+	position: relative;
+	cursor: pointer;
+}
+.fiches-techniques-tab h4 a{
+  padding: 0 30px 0 0;
+  display: block;
+}
+.fiches-techniques-tab h4:before {
+  position: absolute;
+  content: "";
+  background-image: url(./images/download.svg);
+  height: 25px;
+  width: 25px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  right: 0;
+  left: auto;
+  top: 10px;
+  background-position: right;
+}
+.fiches-techniques .more_link {
+  margin: 0 auto;
+  text-align: center;
+}
+.commercial_page .banner_one_section .bo_txt{
+  top:28%;
+}
+.page-template-commercial-page .peinture_section .pein_list .pein_box .pein_img{
+  margin: 0;
+}
+.commercial_page .peinture_section{
+  padding: 0;
+}
+.page-template-commercial-page .peinture_section .pein_list .pein_box{
+	margin: 0px 5% 5% 0;
+	width: 16%;
+}
+.page-template-commercial-page .peinture_section .pein_list .pein_box:nth-child(5n) {
+  margin-right: 0;
+}
+.commercial-services-main {
+  display: flex;
+  flex-flow: row wrap;
+}
+.commercial-services-box {
+  position: relative;
+  width: 48.5%;
+  margin-right: 3%;
+  margin-bottom: 6%;
+}
+.commercial-services-main .commercial-services-box:nth-child(2n){margin-right: 0;}
+.commercial-service-img{position: relative;}
+.services-caption {
+  position: absolute;
+  bottom: 0;
+  left:0;
+  right: auto;
+  background-color: #FFFFFF;
+  width: 75%;
+  padding: 30px;
+  z-index: 2;
+}
+.services-caption h3{margin:0;}
+
+.banner_one_section .commercial_part{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.banner_one_section .commercial_part::after {
+  background-color: #FFFFFF;
+  position: absolute;
+  left: -50%;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  content: "";
+  z-index:0;
+}
+.commercial_part .batw_txt {
+  display: flex;
+  flex-flow: row wrap;
+  background-color: #FFFFFF;
+  max-width: 66%;
+  padding: 56px 15px 56px 0;
+  position: relative;
+  z-index: 1;
+}
+.commercial_part .batw_ex {
+  position: absolute;
+  width: 30%;
+  left: 66%;
+  bottom: 10px;
+  z-index: 1;
+  text-align: left;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 400;
+}
+.portfolio-main{
+	display: flex;
+  flex-flow: row wrap;
+}
+.portfolio-main .portfolio-box {
+    margin: 0px 4% 5% 0;
+    width: 22%;
+}
+.portfolio-main .portfolio-box:nth-child(4n) {
+    margin-right: 0;
+}
+.nos-projets_head{
+	padding: 100px 0 35px;
+	text-align: center;
+}
+.nos-projets-slider .owl-nav .owl-prev {
+    position: absolute;
+    top: 35%;
+    left:0px;
+    z-index: 1;
+    font-size: 0;
+    outline: none;
+    cursor: pointer;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    width: 20px;
+    height: 20px;
+    background: none;
+    transform: rotate(135deg);
+}
+.nos-projets-slider .owl-nav .owl-next {
+    position: absolute;
+    top: 35%;
+    right:0px;
+    z-index: 1;
+    font-size: 0;
+    outline: none;
+    cursor: pointer;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    width: 20px;
+    height: 20px;
+    background: none;
+    transform: rotate(-45deg);
+}
+.nos-projets{display: none;}
+.contacts {
+    padding: 100px 0 70px;
+}
+.contact-main{
+	display: flex;
+	flex-flow: row wrap;
+}
+.contact-main .contact-item{width: 33.33%;}
+.contact-item h3{
+	margin-bottom: 15px;
+}
+.contact-item h5{margin-bottom: 15px;}
+.contact-item p,
+.contact-item a{
+  color: #000000;
+	font-weight: 500;
+	line-height: 22px;
+  display: inline-block;
+  margin: 0 0 8px 0;
+}
+.contact-item a:hover{
+  color: #717171;
+}
+.social-link ul li::before {
+	display: none;
+}
+.social-link ul li {
+    padding: 0;
+}
+.demande-de-soumissio {
+  position: relative;
+}
+.demande-de-soumissio .bo_bg{
+	position: relative;
+	padding-bottom: 37%;
+}
+/* .demande-de-soumissio .bo_bg img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+} */
+
+.text-block {
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 65%;
+    padding: 35px 0;
+}
+.text-block h2{margin-bottom: 20px;}
+.text-block p{margin-bottom: 0;max-width: 54%;
+    margin: 0 auto;}
+  .mobile-comm {display: none;}
+.comm-button .inner-img-white{display: none;}
+
+@media (max-width: 1139px) {
+  .commercial_part .batw_txt{
+    padding: 15px 15px 10px 0;
+  }
+  // .commercial_part .batw_ex{
+  //   right: 12%;
+  // }
+}
+
+@media (max-width: 1023px) {
+  .commercial_page .peinture_section {
+    padding: 20px 0 40px 0;
+  }
+  .commercial-services-box {
+    position: relative;
+    width: 48.9%;
+    margin-right: 2%;
+    margin-bottom: 6%;
+  }
+  .commercial_part .batw_txt{
+    width: 100%;
+    max-width: 85%;
+    padding: 15px 0;
+  }
+  .fiches_head{
+    padding:40px 0 20px 0;
+  }
+  .page-template-commercial-page .video_text_section .video_text_main .vtm_left{
+    order: unset;
+    padding: 0 0 30px 0;
+  }
+  .page-template-commercial-page .video_text_section .video_text_main .vtm_right{
+    order: unset;
+    padding: 0 0 0 0;
+  }
+  .page-template-commercial-page .peinture_section .pein_list .pein_box {
+      width: 21.2%;
+  }
+  .page-template-commercial-page .peinture_section .pein_list .pein_box:nth-child(3n) {
+      margin-right: 5%;
+  }
+  .page-template-commercial-page .peinture_section .pein_list .pein_box:nth-child(4n) {
+      margin-right:0;
+  }
+  .page-template-commercial-page .peinture_section .pein_list .pein_box:nth-child(5n) {
+      margin-right: 5%;
+  }
+  .realise-slider .owl-nav .owl-next{right:0;}
+  .realise-slider .owl-nav .owl-prev{left:0;}
+  .single-portfolio-content .col-sm-7 {
+      padding-right: 60px;
+  }
+  .nos-projets{display: block;}
+  .portfolio-main{display: none;}
+
+  .single-portfolio-container {
+      padding: 100px 0 100px;
+  }
+  .text-block{max-width: 85%;}
+  .text-block p{max-width: 100%;}
+  .single-portfolio-content {
+      padding: 30px 0 0;
+  }
+  .nos-projets_head {
+      padding: 60px 0 20px;
+  }
+  .contacts {
+      padding: 50px 0 40px;
+  }
+  .fiches-techniques .more_link{
+    padding-top: 20px;
+  }
+  .fiches-techniques{
+    padding-bottom: 60px;
+  }
+  .main_footer{position: relative;}
+  .main_footer .foot_main{margin-bottom: 25px;}
+  .comm-button .rotate-text{display: none;}
+  .comm-button .inner-img{display: none;}
+  .comm-button {
+    display: inline-block;
+    position: fixed;
+    background: #000;
+    width: 100% !important;
+    left: 0;
+    right: 0;
+    z-index: 9;
+    padding: 13px 0;
+    bottom: 0;
+}
+.mobile-comm {
+    display: flex;
+    align-items: center;
+    padding: 0 35px;
+    justify-content: center;
+}
+.mobile-comm p {
+    font-size: 10px;
+    letter-spacing: 1.33px;
+    line-height: 16px;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding-left: 20px;
+}
+  .comm-button .inner-img-white {
+    width: 25px;
+    height: 25px;
+    display: block;
+}
+
+}
+@media (max-width: 991px) {
+  .commercial_part .batw_txt{display: block;}
+  .commercial_part .commercial-box,
+  .commercial_part .commercial-box:last-child{
+    width: 100%;
+  }
+
+  .fiches-techniques-tab h4{
+    margin: 0;
+    line-height: 26px;
+  }
+
+}
+
+@media (max-width: 767px) {
+	.commercial_part_main{
+		padding: 30px 15px;
+		width: 90%;
+	}
+	.commercial_part .commercial-box .serdrag_txt{font-size: 12px;}
+	.commercial_part .commercial-box h5{font-size: 12px;}
+	.commercial_part .commercial-box {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+	.fiches-techniques-main{display: block;}
+	.fiches-techniques-box {
+    width: 100%;
+    margin: 0 0 12px 0;
+  }
+  .fiches-techniques-main .fiches-techniques-box:nth-child(2),
+  .fiches-techniques-main .fiches-techniques-box:nth-child(3) {
+      border: none;
+      margin: 0;
+      padding: 0;
+  }
+  .page-template-commercial-page .peinture_section .pein_list .pein_box {
+      margin: 0px 5% 5% 0;
+      width: 30%;
+  }
+  .commercial-services-box {
+      position: relative;
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 6%;
+  }
+
+  .services-caption{padding: 10px;width:85%;}
+
+  .page-template-commercial-page .peinture_section .pein_list .pein_box:nth-child(3n) {
+      margin-right:0;
+  }
+  .page-template-commercial-page .peinture_section .pein_list .pein_box:nth-child(4n) {
+      margin-right:5%;
+  }
+  .nos-projets-slider .owl-nav .owl-prev,
+  .nos-projets-slider .owl-nav .owl-next{
+  	top: 28%;
+  }
+  .single-portfolio-container {
+      padding: 100px 0 100px;
+  }
+  .realise-vos-main h2 {
+      font-size: 22px;
+      line-height: 35px;
+  }
+  .single-portfolio-content .col-sm-7,
+  .single-portfolio-content .col-sm-5{
+      padding: 0 15px;
+      flex: 100%;
+      max-width: 100%;
+  }
+  .demande-de-soumissio .bo_bg{padding-bottom: 50%;}
+  .contact-main .contact-item {width: 100%;margin-bottom:15px;}
+  .contact-main .contact-item:last-child{margin: 0;}
+  .contact-item h5 {
+      margin-bottom: 15px;
+  }
+
+  .fiches-techniques-tab h4{
+    line-height: 26px;
+  }
+}
+@media (max-width: 620px) {
+	.demande-de-soumissio .bo_bg {
+    padding-bottom: 75%;
+}
+}
+@media (max-width: 479px) {
+.demande-de-soumissio .bo_bg{padding-bottom: 100%;}
+}
